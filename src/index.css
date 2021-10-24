@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+ /* nav bar css */
+/* .navbar{
+    background-color: #fff !important;
+} */
+.navbar-brand{
+    font-size: 2rem !important;
+    color: #f4f4f7 !important;
+}
+.navbar a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.navbar a:hover{
+    color: #e5edf1 !important;
+}
+.menu_active{
+    font-weight: bold;
+    border-bottom: 1px solid #565387;
+}
+.main_navbar{
+    background-color: #fda88e;
+}
+
+/* main page css */
+.brand_name{
+    color: #3498db;
+    font-size: 48px;
+}
+.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+
+.fecture_card{
+    width: 15%;
+    margin: 8px;
+    color: red;
+
+}
+
+
